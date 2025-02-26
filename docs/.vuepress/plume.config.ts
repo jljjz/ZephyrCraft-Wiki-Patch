@@ -40,32 +40,6 @@ footer: {
 },
 
 
-    <a target="_blank"
-       href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
-       style="
-         display: inline-block;
-         line-height: 0; /* 消除图片底部间隙 */
-       ">
-      <img src="//pub.idqqimg.com/wpa/images/group.png" 
-           alt="QQ群 ZephyrCraft 和风Minecraft"
-           title="点击加入QQ群"
-           style="
-             width: 120px;
-             height: auto;
-             max-height: 24px;
-             vertical-align: middle;
-             object-fit: contain;
-             border-radius: 4px;
-             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-             transition: transform 0.2s;
-           "
-           onmouseover="this.style.transform='scale(1.02)'"
-           onmouseout="this.style.transform='scale(1)'">
-    </a>
-  </div>
-  `,
-},
-
 
 
   /**
