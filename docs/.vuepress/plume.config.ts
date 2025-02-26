@@ -66,7 +66,7 @@ footer: {
       <span>加入玩家社群</span>
     </a>
   </div>`,
-}
+},
 
 
 
