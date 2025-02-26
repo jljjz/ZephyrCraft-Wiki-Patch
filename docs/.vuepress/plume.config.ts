@@ -28,8 +28,8 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+   footer: {
+     message: 'Power by <a target="_blank" href="https://space.bilibili.com/517481506?spm_id_from=333.1007.0.0">Ziphyrien©2025</a> & <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH&jump_from=webapi&authKey=ofQi5mkvRLQf3CiRc77G/fbbUO3YJvX3bRYMkJoXD3BMucihnFmQa+YA78qmkNSg"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="ZephyrCraft 和风Minecraft " title="ZephyrCraft 和风Minecraf "></a>',
   //   copyright: '',
   // },
 
