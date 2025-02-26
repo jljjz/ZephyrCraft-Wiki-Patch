@@ -29,29 +29,16 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
 footer: {
-  message: `
-  <div style="
-    display: flex; 
-    align-items: center;
-    gap: 0.6rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 14px;
-    color: #454d64;
-  ">
-    <span style="white-space: nowrap;">Powered by</span>
-    
-    <a target="_blank" 
-       href="https://space.bilibili.com/517481506"
-       style="
-         display: inline-flex;
-         align-items: center;
-         color: #00a1d6;
-         text-decoration: none;
-         transition: opacity 0.2s;
-       ">
-       Ziphyrien©2025
-    </a>
+    message: '<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #888;">\
+                Powered by <a class="zp-link" target="_blank" href="https://space.bilibili.com/517481506">Ziphyrien©2025</a>\
+                <span style="color: #666;">|</span>\
+                <a class="zp-link" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH&jump_from=webapi&authKey=ofQi5mkvRLQf3CiRc77G/fbbUO3YJvX3bRYMkJoXD3BMucihnFmQa+YA78qmkNSg">\
+                  <img style="vertical-align: middle; height: 18px; margin-right: 4px;" src="//pub.idqqimg.com/wpa/images/group.png" alt="社群图标">\
+                  ZephyrCraft 玩家社群\
+                </a>\
+              </div>',
+},
+
 
     <a target="_blank"
        href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
