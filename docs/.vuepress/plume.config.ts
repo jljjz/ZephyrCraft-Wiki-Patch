@@ -28,10 +28,51 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  footer: {
-    message: 'Power by <a target="_blank" href="https://space.bilibili.com/517481506?spm_id_from=333.1007.0.0">Ziphyrien©2025</a> & <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH&jump_from=webapi&authKey=ofQi5mkvRLQf3CiRc77G/fbbUO3YJvX3bRYMkJoXD3BMucihnFmQa+YA78qmkNSg"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="ZephyrCraft 和风Minecraft " title="ZephyrCraft 和风Minecraf "></a>',
-  //   copyright: '',
-  },
+footer: {
+  message: `
+  <div style="
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 14px;
+    color: #666;
+    justify-content: center;
+    flex-wrap: wrap;
+  ">
+    <span>Power by</span>
+    <a target="_blank" 
+       href="https://space.bilibili.com/517481506"
+       style="color: #00a1d6; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s">
+       Ziphyrien©2025
+    </a>
+    <span>&</span>
+    <a target="_blank" 
+       href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
+       style="
+         display: inline-flex;
+         align-items: center;
+         padding: 4px 8px;
+         background: #f0f2f5;
+         border-radius: 6px;
+         text-decoration: none;
+         transition: 0.2s;
+       ">
+      <img src="//pub.idqqimg.com/wpa/images/group.png" 
+           alt="ZephyrCraft 和风Minecraft"
+           title="ZephyrCraft 和风Minecraft"
+           style="
+             width: 20px;
+             height: 20px;
+             margin-right: 6px;
+             vertical-align: middle;
+             border: none;
+           ">
+      加入群聊
+    </a>
+  </div>
+  `,
+},
+
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
