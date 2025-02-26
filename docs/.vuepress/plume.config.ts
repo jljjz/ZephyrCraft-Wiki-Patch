@@ -18,8 +18,8 @@ export default defineThemeConfig({
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
 
-    contributors: {
-      mode: 'block',
+  contributors: {
+    mode: 'block',
     },
 
       
