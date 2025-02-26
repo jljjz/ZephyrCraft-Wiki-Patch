@@ -34,43 +34,9 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-footer: {
-  message: `<div style="
-    position: sticky;
-    bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 14px;
-    color: #888;
-    padding: 12px 16px;
-    background: rgba(255,255,255,0.9);
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: fit-content;
-    margin: 20px auto;
-    backdrop-filter: blur(4px);
-    border: 1px solid #eee;">
-    <span style="display: inline-flex; align-items: center; gap: 6px;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-      Powered by <a href="https://space.bilibili.com/517481506" target="_blank" class="zp-link">Ziphyrien</a>
-    </span>
-    <div class="separator" style="height: 16px; width: 1px; background: #ddd;"></div>
-    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH" 
-       target="_blank" 
-       class="zp-link"
-       style="display: inline-flex; align-items: center; gap: 5px;">
-      <img src="//pub.idqqimg.com/wpa/images/group.png" 
-           alt="QQ Group" 
-           style="height: 20px; width: 20px; object-fit: contain;">
-      <span>加入玩家社群</span>
-    </a>
-  </div>`,
-},
-
-
-
-
+  footer: {
+    message: 'Power by <a target="_blank" href="https://space.bilibili.com/517481506?spm_id_from=333.1007.0.0">Ziphyrien©2025</a> & <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH&jump_from=webapi&authKey=ofQi5mkvRLQf3CiRc77G/fbbUO3YJvX3bRYMkJoXD3BMucihnFmQa+YA78qmkNSg"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" title="ZephyrCraft交流群"></a>',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
