@@ -1,4 +1,5 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
+import { defineUserConfig } from 'vuepress'
 import { navbar } from './navbar'
 import { notes } from './notes'
 
@@ -17,6 +18,11 @@ export default defineThemeConfig({
   // aside: true, // 页内侧边栏， 默认显示在右侧
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
+  export default defineUserConfig({
+  theme: plumeTheme({
+    contributors: {
+      mode: 'block',
+      
   /**
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
@@ -29,15 +35,39 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
 footer: {
-    message: '<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #888;">\
-                Powered by <a class="zp-link" target="_blank" href="https://space.bilibili.com/517481506">Ziphyrien©2025</a>\
-                <span style="color: #666;">|</span>\
-                <a class="zp-link" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH&jump_from=webapi&authKey=ofQi5mkvRLQf3CiRc77G/fbbUO3YJvX3bRYMkJoXD3BMucihnFmQa+YA78qmkNSg">\
-                  <img style="vertical-align: middle; height: 18px; margin-right: 4px;" src="//pub.idqqimg.com/wpa/images/group.png" alt="社群图标">\
-                  ZephyrCraft 玩家社群\
-                </a>\
-              </div>',
-},
+  message: `<div style="
+    position: sticky;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #888;
+    padding: 12px 16px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: fit-content;
+    margin: 20px auto;
+    backdrop-filter: blur(4px);
+    border: 1px solid #eee;">
+    <span style="display: inline-flex; align-items: center; gap: 6px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+      Powered by <a href="https://space.bilibili.com/517481506" target="_blank" class="zp-link">Ziphyrien</a>
+    </span>
+    <div class="separator" style="height: 16px; width: 1px; background: #ddd;"></div>
+    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH" 
+       target="_blank" 
+       class="zp-link"
+       style="display: inline-flex; align-items: center; gap: 5px;">
+      <img src="//pub.idqqimg.com/wpa/images/group.png" 
+           alt="QQ Group" 
+           style="height: 20px; width: 20px; object-fit: contain;">
+      <span>加入玩家社群</span>
+    </a>
+  </div>`,
+}
+
 
 
 
