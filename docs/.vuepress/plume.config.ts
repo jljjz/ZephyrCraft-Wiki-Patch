@@ -30,48 +30,30 @@ export default defineThemeConfig({
   /* 站点页脚 */
 footer: {
   message: `
-  <div style="
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 14px;
-    color: #666;
-    justify-content: center;
-    flex-wrap: wrap;
-  ">
-    <span>Power by</span>
-    <a target="_blank" 
-       href="https://space.bilibili.com/517481506"
-       style="color: #00a1d6; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s">
-       Ziphyrien©2025
-    </a>
-    <span>&</span>
-    <a target="_blank" 
-       href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
-       style="
-         display: inline-flex;
-         align-items: center;
-         padding: 4px 8px;
-         background: #f0f2f5;
-         border-radius: 6px;
-         text-decoration: none;
-         transition: 0.2s;
-       ">
-      <img src="//pub.idqqimg.com/wpa/images/group.png" 
-           alt="ZephyrCraft 和风Minecraft"
-           title="ZephyrCraft 和风Minecraft"
-           style="
-             width: 20px;
-             height: 20px;
-             margin-right: 6px;
-             vertical-align: middle;
-             border: none;
-           ">
-      加入群聊
-    </a>
-  </div>
-  `,
+    <div style="display: flex; align-items: center; gap: 0.5rem 1.2rem; flex-wrap: wrap; justify-content: center; font-size: 14px; color: #666;">
+      <span>Power by</span>
+      <a target="_blank" 
+         href="https://space.bilibili.com/517481506" 
+         style="color: #00a1d6; text-decoration: none; transition: opacity 0.2s;"
+         onmouseover="this.style.opacity=0.8" 
+         onmouseout="this.style.opacity=1">
+        Ziphyrien©2025
+      </a>
+      <span>•</span>
+      <a target="_blank" 
+         href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH" 
+         style="display: inline-flex; align-items: center; padding: 4px 12px; background: #f5f7fa; border-radius: 20px; text-decoration: none; transition: background 0.2s;"
+         onmouseover="this.style.background='#ebedf0'" 
+         onmouseout="this.style.background='#f5f7fa'">
+        <img src="//pub.idqqimg.com/wpa/images/group.png" 
+             alt="群图标"
+             style="width: 18px; height: 18px; margin-right: 6px; vertical-align: middle;">
+        ZephyrCraft群
+      </a>
+    </div>
+  `.replace(/\n\s+/g, ' '), // 关键技巧：自动压缩多余空格
 },
+
 
 
   /**
