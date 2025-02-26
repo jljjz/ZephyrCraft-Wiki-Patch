@@ -31,47 +31,54 @@ export default defineThemeConfig({
 footer: {
   message: `
   <div style="
-    display: flex;
+    display: flex; 
     align-items: center;
-    gap: 0.8rem;
-    font-size: 14px;
-    color: #666;
-    justify-content: center;
+    gap: 0.6rem;
     flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    color: #454d64;
   ">
-    <span>Power by</span>
+    <span style="white-space: nowrap;">Powered by</span>
+    
     <a target="_blank" 
        href="https://space.bilibili.com/517481506"
-       style="color: #00a1d6; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.2s">
-       Ziphyrien©2025
-    </a>
-    <span>&</span>
-    <a target="_blank" 
-       href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
        style="
          display: inline-flex;
          align-items: center;
-         padding: 4px 8px;
-         background: #f0f2f5;
-         border-radius: 6px;
+         color: #00a1d6;
          text-decoration: none;
-         transition: 0.2s;
+         transition: opacity 0.2s;
+       ">
+       Ziphyrien©2025
+    </a>
+
+    <a target="_blank"
+       href="https://qm.qq.com/cgi-bin/qm/qr?k=gb-kKM0eEGY4RZjOk9WJ_rXOFzgsiwqH"
+       style="
+         display: inline-block;
+         line-height: 0; /* 消除图片底部间隙 */
        ">
       <img src="//pub.idqqimg.com/wpa/images/group.png" 
-           alt="ZephyrCraft 和风Minecraft"
-           title="ZephyrCraft 和风Minecraft"
+           alt="QQ群 ZephyrCraft 和风Minecraft"
+           title="点击加入QQ群"
            style="
-             width: 20px;
-             height: 20px;
-             margin-right: 6px;
+             width: 120px;
+             height: auto;
+             max-height: 24px;
              vertical-align: middle;
-             border: none;
-           ">
-      加入群聊
+             object-fit: contain;
+             border-radius: 4px;
+             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+             transition: transform 0.2s;
+           "
+           onmouseover="this.style.transform='scale(1.02)'"
+           onmouseout="this.style.transform='scale(1)'">
     </a>
   </div>
   `,
 },
+
 
 
   /**
