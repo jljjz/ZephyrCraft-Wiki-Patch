@@ -22,6 +22,8 @@ export default defineUserConfig({
   theme: plumeTheme({
     contributors: {
       mode: 'block',
+    },
+  })
       
   /**
    * 文章版权信息
