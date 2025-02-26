@@ -20,7 +20,7 @@ export default defineThemeConfig({
 
   contributors: {
     mode: 'block',
-    },
+  },
 
       
   /**
