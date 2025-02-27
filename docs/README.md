@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: 构建中
+      name: Wiki
       tagline: 构建中
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      text: 敬请期待
       actions:
         -
           theme: brand
