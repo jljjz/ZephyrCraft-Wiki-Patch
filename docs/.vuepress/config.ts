@@ -17,6 +17,41 @@ export default defineUserConfig({
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
+
+    //侧边栏
+    sidebar: {
+      // 匹配 /wiki/ 路径下的文档
+      '/wiki/': [ 
+        {
+          text: 'Wiki首页',
+          link: '/wiki/README.md'
+        },
+        {
+          text: '服务器规划',
+          link: '/wiki/plan/README.md'
+        },
+        {
+          text: '服务器规则',
+          link: '/wiki/rule/README.md'
+        },
+        {
+          text: '服务器模组',
+          link: '/wiki/mod/README.md'
+        },
+        {
+          text: '服务器相册',
+          link: '/wiki/pic/README.md'
+        },
+        {
+          text: '聚落内部规划',
+          link: '/wiki/Iplan/README.md'
+        },
+        {
+          text: '聚落内部规则',
+          link: '/wiki/Irule/README.md'
+        },
+      ]
+    }
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     // hostname: 'https://your_site_url',
 

@@ -16,6 +16,10 @@ config:
           text: 博客
           link: /blog/
         -
+          theme: brand
+          text: Wiki
+          link: /wiki/
+        -
           theme: alt
           text: Bilibili →
           link: https://space.bilibili.com/517481506?spm_id_from=333.1007.0.0
