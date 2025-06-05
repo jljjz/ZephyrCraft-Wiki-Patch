@@ -32,7 +32,74 @@ export default defineUserConfig({
         },
         {
           text: '服务器规则',
-          link: '/wiki/rule/README.md'
+          link: '/wiki/rule/README.md',
+          collapsible: false,
+          chidren: [
+            {
+              text: '农业',
+              link: 'wiki/rule/farm/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '林业',
+              link: 'wiki/rule/forest/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '牧业',
+              link: 'wiki/rule/animal/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '渔业',
+              link: 'wiki/rule/fish/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '工业',
+              link: 'wiki/rule/industry/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '商业',
+              link: 'wiki/rule/business/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '建筑',
+              link: 'wiki/rule/build/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+            {
+              text: '战斗',
+              link: 'wiki/rule/battle/README.md',
+              collapsible: true,
+              chidren: [
+
+              ]
+            },
+          ]
         },
         {
           text: '服务器模组',
@@ -43,12 +110,15 @@ export default defineUserConfig({
           link: '/wiki/pic/README.md'
         },
         {
-          text: '聚落内部规划',
-          link: '/wiki/Iplan/README.md'
-        },
-        {
-          text: '聚落内部规则',
-          link: '/wiki/Irule/README.md'
+          text: '服务器聚落',
+          link: '/wiki/guild/README.md',
+          collapsible: false,
+          chidren: [
+            {
+              text: '小麦谷',
+              link: '/wiki/guild/README.md'
+            },
+          ]
         },
       ]
     }
