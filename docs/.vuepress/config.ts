@@ -115,8 +115,12 @@ export default defineUserConfig({
           collapsible: false,
           chidren: [
             {
+              text: '制度明细',
+              link: '/wiki/guild/Details.md'
+            },
+            {
               text: '小麦谷',
-              link: '/wiki/guild/README.md'
+              link: '/wiki/guild/Wheat Grain/README.md'
             },
           ]
         },

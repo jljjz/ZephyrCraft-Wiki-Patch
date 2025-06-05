@@ -10,14 +10,19 @@ tag: wiki
 ### 添加与修改
 
 添加内部规则时，需用：
+
 Github账号
+
 Main的Fork
+
 VSC编辑器
 
 ### 格式
 
 位于guild文件夹下新建文件夹并且命名为你的公会名字[^first]
+
 并且在下方创建README.md文件，MarkDown(.md)的文档请自行查阅，项目中也有markdown.md示例（位于preview）
+
 并且在.vuepress/config.ts sidebar添加侧边栏指向你聚落的RAEDME.md，并且在其中开头加入
 
 ```md whitespace
