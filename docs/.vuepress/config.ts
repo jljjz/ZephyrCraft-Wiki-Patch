@@ -110,7 +110,7 @@ export default defineUserConfig({
           link: '/wiki/pic/README.md'
         },
         {
-          text: '服务器聚落',
+          text: '服务器组织',
           link: '/wiki/guild/README.md',
           collapsible: false,
           chidren: [
