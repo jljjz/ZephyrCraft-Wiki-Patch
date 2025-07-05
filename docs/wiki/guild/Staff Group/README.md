@@ -10,8 +10,8 @@ tag: guild
 #### 创建人：Ziphyiren
 
 成员列表：
-Ziphyiren
-Weichenxiaowen
+Ziphyiren  
+Weichenxiaowen  
 sky_bird
 
 ### 简介：
