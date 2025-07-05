@@ -14,10 +14,8 @@ tag: wiki
 
 个别管理拥有OP权限，部分管理起到协调的作用
 
-群内明确有电脑生产力的人员有：
-
-Ziphyrien jljjz sky_bird 微尘
-
+群内明确有电脑生产力的人员有：  
+Ziphyrien jljjz sky_bird 微尘  
 多种 C# C++ 动画制作
 
 ### 服务器规则制定规范

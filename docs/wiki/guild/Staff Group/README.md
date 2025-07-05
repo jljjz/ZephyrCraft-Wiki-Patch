@@ -11,8 +11,11 @@ tag: guild
 
 成员列表：
 Ziphyiren
+Weichenxiaowen
+sky_bird
 
 ### 简介：
+服务器管理员组
 
 ### 服务器内位置（代号）：
 
