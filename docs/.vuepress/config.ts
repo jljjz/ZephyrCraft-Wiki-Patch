@@ -18,7 +18,6 @@ export default defineUserConfig({
   
   theme: plumeTheme({
     //侧边栏
-    layout: 'left',
     sidebar: {
       // 匹配 /wiki/ 路径下的文档
       '/wiki/': [ 
@@ -34,71 +33,10 @@ export default defineUserConfig({
           text: '服务器规则',
           link: '/wiki/rule/',
           collapsed: false,
-          chidren: [
-            {
-              text: '农业',
-              link: 'wiki/rule/farm/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '林业',
-              link: 'wiki/rule/forest/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '牧业',
-              link: 'wiki/rule/animal/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '渔业',
-              link: 'wiki/rule/fish/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '工业',
-              link: 'wiki/rule/industry/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '商业',
-              link: 'wiki/rule/business/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '建筑',
-              link: 'wiki/rule/build/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
-            {
-              text: '战斗',
-              link: 'wiki/rule/battle/',
-              collapsed: true,
-              chidren: [
-
-              ]
-            },
+          children: [
+            { text: '规则总览', link: '/wiki/rule/' },
+            { text: '经济规则', link: '/wiki/rule/economy/' },
+            { text: '生存规则', link: '/wiki/rule/survival/' },
           ]
         },
         {
@@ -113,17 +51,13 @@ export default defineUserConfig({
           text: '服务器组织',
           link: '/wiki/guild/',
           collapsed: false,
-          chidren: [
-            {
-              text: '制度明细',
-              link: '/wiki/guild/Organize.md'
-            },
-            {
-              text: '小麦谷',
-              link: '/wiki/guild/Wheat Grain/'
-            },
+          children: [
+            { text: '组织总览', link: '/wiki/guild/' },
+            { text: '制度明细', link: '/wiki/guild/Organize.md' },
+            { text: '员工组', link: '/wiki/guild/Staff_Group/' },
+            { text: '小麦谷', link: '/wiki/guild/Wheat_Grain/' },
           ]
-        },
+        }
       ]
     },
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
