@@ -44,4 +44,15 @@ Ziphyrien jljjz sky_bird 微尘
 - 不得含有服内划分等级
 违反以上规定以情况处罚
 
+### 服务器规则制定性质
+
+- Mandatory——强制性标准
+- Voluntary——推荐性标准
+- Guidance——指导性标准
+
+#### Mandatory:
+1. 必须执行并遵守
+
+
+
 [^first]: 修订：在原本的基础上加以补充而并非修改原文，否则需要进行公投
