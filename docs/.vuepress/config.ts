@@ -15,86 +15,86 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
-
+  
   theme: plumeTheme({
-
     //侧边栏
+    layout: 'left',
     sidebar: {
       // 匹配 /wiki/ 路径下的文档
       '/wiki/': [ 
         {
           text: 'Wiki首页',
-          link: '/wiki/README.md'
+          link: '/wiki/'
         },
         {
           text: '服务器规划',
-          link: '/wiki/plan/README.md'
+          link: '/wiki/plan/'
         },
         {
           text: '服务器规则',
-          link: '/wiki/rule/README.md',
-          collapsible: false,
+          link: '/wiki/rule/',
+          collapsed: false,
           chidren: [
             {
               text: '农业',
-              link: 'wiki/rule/farm/README.md',
-              collapsible: true,
+              link: 'wiki/rule/farm/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '林业',
-              link: 'wiki/rule/forest/README.md',
-              collapsible: true,
+              link: 'wiki/rule/forest/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '牧业',
-              link: 'wiki/rule/animal/README.md',
-              collapsible: true,
+              link: 'wiki/rule/animal/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '渔业',
-              link: 'wiki/rule/fish/README.md',
-              collapsible: true,
+              link: 'wiki/rule/fish/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '工业',
-              link: 'wiki/rule/industry/README.md',
-              collapsible: true,
+              link: 'wiki/rule/industry/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '商业',
-              link: 'wiki/rule/business/README.md',
-              collapsible: true,
+              link: 'wiki/rule/business/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '建筑',
-              link: 'wiki/rule/build/README.md',
-              collapsible: true,
+              link: 'wiki/rule/build/',
+              collapsed: true,
               chidren: [
 
               ]
             },
             {
               text: '战斗',
-              link: 'wiki/rule/battle/README.md',
-              collapsible: true,
+              link: 'wiki/rule/battle/',
+              collapsed: true,
               chidren: [
 
               ]
@@ -103,29 +103,29 @@ export default defineUserConfig({
         },
         {
           text: '服务器模组',
-          link: '/wiki/mod/README.md'
+          link: '/wiki/mod/'
         },
         {
           text: '服务器相册',
-          link: '/wiki/pic/README.md'
+          link: '/wiki/pic/'
         },
         {
           text: '服务器组织',
-          link: '/wiki/guild/README.md',
-          collapsible: false,
+          link: '/wiki/guild/',
+          collapsed: false,
           chidren: [
             {
               text: '制度明细',
-              link: '/wiki/guild/Details.md'
+              link: '/wiki/guild/Organize.md'
             },
             {
               text: '小麦谷',
-              link: '/wiki/guild/Wheat Grain/README.md'
+              link: '/wiki/guild/Wheat Grain/'
             },
           ]
         },
       ]
-    }
+    },
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     // hostname: 'https://your_site_url',
 

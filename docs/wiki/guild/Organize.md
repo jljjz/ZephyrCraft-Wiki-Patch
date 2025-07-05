@@ -1,6 +1,8 @@
 ---
 title: 制度明细
 tag: wiki
+createTime: 2025/06/05 21:41:43
+permalink: /article/is19jwvq/
 ---
 
 ## **服务器内所有组织制度明细**
