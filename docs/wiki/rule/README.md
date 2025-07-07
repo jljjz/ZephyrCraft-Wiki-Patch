@@ -1,6 +1,7 @@
 ---
 title: 服务器规则
 tag: wiki
+createTime: 2025/07/05 20:51:54
 ---
 
 ## **欢迎来到Wiki文档-服务器规则**
@@ -46,9 +47,9 @@ Ziphyrien jljjz sky_bird 微尘
 
 ### 服务器规则制定性质
 
-- Mandatory——强制性标准
-- Voluntary——推荐性标准
-- Guidance——指导性标准
+- Mandatory——强制性标准(FBM)
+- Voluntary——推荐性标准(FBV)
+- Guidance——指导性标准(FBG)
 
 #### Mandatory:  
 强制性标准，是指为保障游戏内的游玩体验、财产安全的标准和强制性手段加以实施的标准  

@@ -33,10 +33,22 @@ export default defineUserConfig({
           text: '服务器规则',
           link: '/wiki/rule/',
           collapsed: false,
-          children: [
+          items: [
             { text: '规则总览', link: '/wiki/rule/' },
-            { text: '经济规则', link: '/wiki/rule/economy/' },
-            { text: '生存规则', link: '/wiki/rule/survival/' },
+            { 
+              text: '经济规则', 
+              link: '/wiki/rule/economy/',
+              items:[
+                {text: 'FBTEST'}
+              ]
+            },
+            { 
+              text: '生存规则', 
+              link: '/wiki/rule/survival/',
+              items:[
+                {text: 'FBTEST'}
+              ]
+            }
           ]
         },
         {
@@ -50,12 +62,25 @@ export default defineUserConfig({
         {
           text: '服务器组织',
           link: '/wiki/guild/',
-          collapsed: false,
-          children: [
+          collapsed: true,
+          items: [
             { text: '组织总览', link: '/wiki/guild/' },
             { text: '制度明细', link: '/wiki/guild/Organize.md' },
             { text: '员工组', link: '/wiki/guild/Staff_Group/' },
-            { text: '小麦谷', link: '/wiki/guild/Wheat_Grain/' },
+            { text: '小麦谷', link: '/wiki/guild/Wheat_Grain/' }
+          ]
+        },
+        {
+          text: '服务器玩家档案',
+          link: '/wiki/pdoc/',
+          collapsed: false,
+          items: [
+            { text: '服务器档案必看', link: '/wiki/pdoc/' },
+            { text: 'Ziphyrien', link: '/wiki/pdoc/All/Ziphyrien.md'},
+            { text: 'JA13', link: '/wiki/pdoc/All/JA13.md'},
+            { text: 'sky_bird', link: '/wiki/pdoc/All/sky_bird.md'},
+            { text: 'XiaoYiBai', link: '/wiki/pdoc/All/XiaoYiBai.md'},
+            { text: 'Weichenxiaowen', link: '/wiki/pdoc/All/Weichenxiaowen.md'},
           ]
         }
       ]
